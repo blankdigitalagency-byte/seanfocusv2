@@ -1,6 +1,0 @@
-{
-  "name": "Sean Focus Website",
-  "description": "Professional artist website for Sean Focus, an Afrofusion musician based in Edinburgh.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
