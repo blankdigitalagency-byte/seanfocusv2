@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sean Focus | Afrofusion Musician</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav>
+      <div class="container nav-container">
+        <a href="./index.html" class="logo">SEAN FOCUS</a>
+        <ul class="nav-links">
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./media.html">Media</a></li>
+          <li><a href="./events.html">Events</a></li>
+          <li><a href="./course.html">Course</a></li>
+          <li><a href="./gaming.html">Gaming</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Combined Hero: Header Left + Flight Animation Right -->
+    <section class="hero bg-image-hero fade-up" style="background-image: url('https://images.squarespace-cdn.com/content/v1/686b99c8298a407d0af5ca66/263d5b50-6b78-4009-baf9-e7401b7e9059/NDO07815+%28Story%29.jpg'); display: flex; align-items: center; min-height: 100vh; position: relative;">
+      <div class="starfield" style="z-index: 0;"></div>
+      <div class="hero-overlay" style="z-index: 1;"></div>
+      <div class="container" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; position: relative; z-index: 2; width: 100%; gap: 40px; padding-top: 80px;">
+        
+        <!-- Left: Sean Focus Header -->
+        <div class="hero-content" style="flex: 1 1 40%; min-width: 300px; text-align: left;">
+          <span class="eyebrow rajdhani">TRANSMISSION FROM THE OTHER SIDE</span>
+          <h1 style="text-align: left;">SEAN<br>FOCUS</h1>
+          <p style="margin-bottom: 30px;">Afrofusion · Edinburgh · Zimbabwe</p>
+          <a href="https://open.spotify.com/album/5XJkN3qgXZTzsz9vPqpOeA?si=BsG8QrvNQQ-F6GU5UHmtSw" target="_blank" class="btn">STREAM NOW &rarr;</a>
+        </div>
+
+        <!-- Right: Flight Animation -->
+        <div class="flight-content" style="flex: 1 1 50%; min-width: 300px; max-width: 600px; display: flex; flex-direction: column; align-items: center;">
+          <!-- SVG Map Background -->
+          <svg class="flight-map" viewBox="0 0 500 400" preserveAspectRatio="xMidYMid meet" style="width: 100%; filter: drop-shadow(0 0 15px rgba(0,0,0,0.8));">
+            <!-- Stencil of UK -->
+            <path d="M 190,15 L 200,10 L 210,15 L 215,30 L 205,50 L 220,70 L 235,90 L 210,105 L 190,95 L 180,75 L 185,55 L 175,40 Z" fill="#111118" stroke="rgba(255,255,255,0.15)" stroke-width="2"></path>
+            <!-- Stencil of Africa -->
+            <path d="M 120,150 L 150,110 L 190,100 L 240,100 L 280,120 L 300,160 L 370,180 L 380,200 L 340,240 L 320,290 L 300,320 L 260,400 L 240,390 L 220,380 L 220,320 L 190,260 L 150,250 L 110,250 L 90,200 Z" fill="#111118" stroke="rgba(255,255,255,0.15)" stroke-width="2"></path>
+            
+            <!-- Path from Harare (approx: 285, 330) to Edinburgh (approx: 200, 45) -->
+            <path class="path-line" d="M 285,330 Q 360,180 200,45"></path>
+
+            <!-- Origin & Destination Dots -->
+            <!-- Harare -->
+            <circle cx="285" cy="330" r="5" class="pulse-dot"></circle>
+            <!-- Edinburgh -->
+            <circle cx="200" cy="45" r="5" class="pulse-dot"></circle>
+            
+            <!-- Labels -->
+            <text x="300" y="335" fill="#888" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" letter-spacing="1">HARARE, ZIMBABWE</text>
+            <text x="60" y="50" fill="#888" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" letter-spacing="1">EDINBURGH, UK</text>
+
+            <!-- Small Plane Icon -->
+            <polygon class="plane-icon" points="-12,6 0,-12 12,6 0,0" transform="translate(285,330)"></polygon>
+          </svg>
+          <h2 class="flight-message fade-up" style="font-size: 1.2rem; color: var(--gold-accent); margin-top: 20px; text-align: center;">TRANSMISSION RECEIVED.<br>SIGNAL LOCKED.</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Latest Release -->
+    <section class="section-pad">
+      <div class="container two-col fade-up">
+        <div class="split-img">
+          <img src="https://images.squarespace-cdn.com/content/v1/686b99c8298a407d0af5ca66/6bc1824a-d60e-4aed-baea-d4b3ddf897b2/PHOTO-2025-12-08-12-20-32.jpg" alt="Out Now - Desire" loading="lazy">
+        </div>
+        <div>
+          <h2>OUT NOW — DESIRE</h2>
+          <p style="margin-bottom: 30px;">"Desire" earned strong BBC 1Xtra support, spotlighted by Theo Johnson as Step Up Artist (2024).</p>
+          <a href="https://open.spotify.com/album/5XJkN3qgXZTzsz9vPqpOeA?si=BsG8QrvNQQ-F6GU5UHmtSw" target="_blank" class="btn">STREAM ON SPOTIFY &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Highlights strip -->
+    <section class="section-pad highlight-strip fade-up">
+      <div class="container card-grid">
+        <div class="surface-card">
+          <h3>LIVE</h3>
+          <p>🎤 TRNSMT · Riverside Festival · BBC Radio 1 Big Weekend</p>
+        </div>
+        <div class="surface-card">
+          <h3>RADIO</h3>
+          <p>📻 BBC 1Xtra · Capital Xtra · Apple Music · BBC Introducing</p>
+        </div>
+        <div class="surface-card">
+          <h3>GLOBAL</h3>
+          <p>🌍 SXSW London 2025 · Lake of Stars, Malawi</p>
+        </div>
+        <div class="surface-card">
+          <h3>AWARDS</h3>
+          <p>🏆 BBC 1Xtra Step Up Artist 2024</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: CTA strip -->
+    <section class="section-pad cta-strip fade-up">
+      <div class="container">
+        <h2 style="margin-bottom: 20px;">READY TO BOOK OR COLLABORATE?</h2>
+        <a href="./contact.html" class="btn">GET IN TOUCH &rarr;</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-content fade-up">
+        <div class="footer-icons">
+          <a href="#" aria-label="Spotify"><svg viewBox="0 0 24 24"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.54.6.301.96zm1.44-3.3c-.301.42-.84.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.84.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.6.18-1.2.72-1.38 4.26-1.26 11.28-1.02 15.72 1.621.539.3.719 1.02.419 1.56-.239.54-.959.72-1.559.3z"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+          <a href="#" aria-label="Twitch"><svg viewBox="0 0 24 24"><path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+        </div>
+        <div class="footer-text">© 2025 Sean Focus · Imvaize & Co. · Edinburgh, Scotland</div>
+        <div class="footer-contact">ko@imvaizemusicgroup.com · +447878133265</div>
+      </div>
+    </footer>
+  </body>
+</html>
+
